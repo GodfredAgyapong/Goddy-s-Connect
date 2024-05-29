@@ -1,0 +1,378 @@
+body{
+  background: rgb(220,220,220);
+  background: linear-gradient(90deg, rgba(220,220,220,1) 30%, rgba(106,90,205,0.3) 100%);
+}
+
+.hero1{
+  height: 400px;
+  margin-left: 400px;
+  margin-right: 400px;
+  position: relative;
+  background-color: white;
+  top: 170px;
+  box-shadow: 2px 2px 3px DarkRed;
+  border-radius: 30px 30px;
+}
+
+#CA{
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 25px;
+
+}
+
+#SU{
+  position: relative;
+  left: 40%;
+}
+
+#fm{
+  position: absolute;
+  left: 50%;
+  top: 10%;
+}
+
+input[type = "text"]{
+  width: 300px;
+  height: 30px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #EAEDED;
+  border-radius: 7px;
+}
+
+input[type = "password"]{
+  width: 300px;
+  margin-bottom: 20px;
+  height: 30px;
+  border: none;
+  background-color: #EAEDED;
+  border-radius: 7px;
+}
+
+input[type = "submit"]{
+  border-radius: 7px 7px;
+  width: 80px;
+  height: 30px;
+  background-color: #F26716;
+  color: white;
+  cursor: pointer;
+}
+
+input[placeholder = "Name"]{
+  padding-left: 10px;
+}
+
+input[placeholder = "E-mail"]{
+  padding-left: 10px;
+}
+
+input[placeholder = "Password"]{
+  padding-left: 10px;
+}
+
+#st{
+  position: absolute;
+  right: 55%;
+  height: 100%;
+  width: 45%;
+  background-color: SlateBlue;
+  border-radius: 30px 120px 90px 30px;
+}
+
+#wb{
+  padding-top: 35%;
+  font-size: 25px;
+}
+
+#wb, #det{
+  text-align: center;
+  color: white;
+}
+
+#bt{
+  margin-top: 5px;
+  position: relative;
+  left: 39%;
+  width: 80px;
+  height: 25px;
+  background-color: SlateBlue;
+  color: white;
+  border-radius: 7px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1480px ){
+  .hero1{
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+}
+
+@media screen and (max-width: 1350px){
+  .hero1{
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
+
+@media screen and (max-width: 1250px){
+  .hero1{
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
+@media screen and (max-width: 1152px){
+  .hero1{
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width: 1054px){
+  .hero1{
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .hero1{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 852px){
+  .hero1{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+}
+
+@media screen and (max-width: 792px){
+  .hero1{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 750px){
+
+  .hero1{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  #CA{
+    font-size: 20px;
+    padding-top: 10%;
+  }
+
+  input[type = "text"]{
+  width: 250px;
+  }
+
+  input[type = "password"]{
+    width: 250px;
+  }
+
+  input[type = "submit"]{
+  width: 70px;
+  }
+
+  #fm{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+  }
+
+  #SU{
+    position: relative;
+    left: 37%;
+  }
+
+  #wb{
+    padding-top: 50%;
+    font-size: 20px;
+  }
+
+  #wb, #det{
+    text-align: center;
+    color: white;
+  }
+
+  #bt{
+  position: relative;
+    left: 35%;
+    width: 75px;
+  height: 20px;
+  }
+
+  #st{
+    position: absolute;
+    right: 55%;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 616px){
+
+  .hero1{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #CA{
+    font-size: 15px;
+    padding-top: 10%;
+  }
+
+  input[type = "text"]{
+  width: 200px;
+  }
+
+  input[type = "password"]{
+    width: 200px;
+  }
+
+  input[type = "submit"]{
+  width: 70px;
+  }
+
+  #fm{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+  }
+
+  #SU{
+    position: relative;
+    left: 35%;
+  }
+
+  #wb{
+    padding-top: 55%;
+    font-size: 15px;
+  }
+
+  #wb, #det{
+    text-align: center;
+    color: white;
+  }
+
+  #bt{
+    position: relative;
+    left: 35%;
+    width: 75px;
+    height: 20px;
+  }
+
+  #st{
+    position: absolute;
+    right: 55%;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 480px){
+
+  .hero1{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #CA{
+    font-size: 12px;
+    padding-top: 10%;
+  }
+
+  input[type = "text"]{
+  width: 180px;
+  }
+
+  input[type = "password"]{
+    width: 180px;
+  }
+
+  input[type = "submit"]{
+  width: 70px;
+  }
+
+  #fm{
+    position: absolute;
+    left: 48%;
+    top: 15%;
+  }
+
+  #SU{
+    position: relative;
+    left: 34%;
+  }
+
+  #wb{
+    padding-top: 63%;
+    font-size: 12px;
+  }
+
+  #bt{
+    position: relative;
+    left: 35%;
+    width: 68px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 405px){
+
+  .hero1{
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  #CA{
+    font-size: 10px;
+    padding-top: 10%;
+  }
+
+  input[type = "text"]{
+  width: 140px;
+  }
+
+  input[type = "password"]{
+    width: 140px;
+  }
+
+  input[type = "submit"]{
+  width: 68px;
+  }
+
+  #fm{
+    position: absolute;
+    left: 48%;
+    top: 15%;
+  }
+
+  #SU{
+    position: relative;
+    left: 34%;
+  }
+
+  #wb{
+    padding-top: 73%;
+    font-size: 10px;
+  }
+
+  #det{
+    font-size: 12px;
+  }
+
+  #bt{
+    position: relative;
+    left: 35%;
+    width: 60px;
+    height: 20px;
+  }
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+        <head>
+        <meta charset = "UTF-8"/>
+        <meta name = "author" content = "AGYAPONG DANKWAH GODFRED">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta http-equiv="content-security-policy|content-type|default-style|refresh">
+        <link rel = "icon" type = "image/png" href = "./Godfred Agyapong.png">
+        <link rel = "stylesheet" type = "text/css" href = "./Products.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Products</title>
+        </head>
+<body>
+  <section class = "navbar">
+      <a onclick = "hideBar()" href = "#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+      <div>
+      <nav>
+        <a class = "showonmobile" href = "./Index.html" target = "_parent">Home</a>
+        <a class = "showonmobile" href = "./About.html" target = "_blank">About</a>
+        <a class = "showonmobile" href = "./Services.html" target = "_blank">Services</a>
+        <a class = "showonmobile" href = "./Contact.html" target = "_blank">Contact</a>
+        <a class = "showonmobile" href = "./Sign-up.html" target = "_parent">Sign-up</a>
+      </nav>
+    </div>
+  </section>
+  <section class = "header">
+      <a href = "./Index.html" target = "_parent"><img src = "./Godfred Agyapong.png"></a>
+      <div>
+      <nav>
+        <a class = "hideonmobile" href = "./Index.html" target = "_parent">Home</a>
+        <a class = "hideonmobile" href = "./About.html" target = "_blank">About</a>
+        <a class = "hideonmobile" href = "./Services.html" target = "_blank">Services</a>
+        <a class = "hideonmobile" href = "./Contact.html" target = "_blank">Contact</a>
+        <a class = "hideonmobile" href = "./Sign-up.html" target = "_parent">Sign-up</a>
+        <a id = "hov" onclick = showSidebar() href = "#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+      </nav>
+    </div>
+    <script>
+        function showSidebar(){
+          const navbar = document.querySelector('.navbar')
+          navbar.style.display = 'flex'
+        }
+        function hideBar(){
+          const navbar = document.querySelector('.navbar')
+          navbar.style.display = 'none'
+        }
+    </script>
+  </section>
+  <br>
+  <br>
+  <section id = "products">
+    <div class = "pt">
+        <img id = "image" src = "./Acer Predator.png">
+        <p class = "text"><b>Acer Predator</b></p>
+        <p class = "price">PRICE:<span style = "color: #F28B30; padding-left: 5px;"><b>GHC 7,300</b></span></p>
+        <a href = "#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+        <div class = "description">
+            <p class = "pname">
+                <b>Acer Predator G3-572</b>
+            </p>
+            <p class = "prce">PRICE:<span style = "color: #F28B30; padding-left: 5px;">
+                <b>GHC 7,300</b>
+            </span>
+            </p>
+            <p class = "ds">
+                <span class = "dt"><b>HDD:</b></span>
+                1TB<br>
+                <span class = "dt"><b>SSD:</b></span>
+                128GB<br>
+                <span class = "dt"><b>Processor:</b></span>
+                i5-7300HQ<br>
+                <span class = "dt"><b>CPU:</b></span>
+                @2.50GHz - 2.5GHz &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (4CPU's)<br>
+                <span class = "dt"><b>RAM:</b></span>
+                8GB<br>
+                <span class = "dt"><b>VGA:</b></span>
+                NVIDIA GeForce &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GTX 1050 Ti 4GB
+            </p>
+        </div>
+    </div>
+    <div id = "pt1">
+      <img id = "image1" src = "./1024.png">
+      <p class = "text"><b>MSI</b></p>
+      <p class = "price">PRICE:<span style = "color: #F28B30; padding-left: 5px;"><b>GHC 12,000</b></span></p>
+      <a href = "#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+      <div class = "description">
+          <p class = "pname">
+              <b>GS63VR 7RF Stealth Pro </b>
+          </p>
+          <p class = "prce">PRICE:<span style = "color: #F28B30; padding-left: 10px;">
+              <b>GHC 7,300</b>
+          </span>
+          </p>
+          <p class = "ds">
+              <span class = "dt"><b>HDD:</b></span>
+              1TB<br>
+              <span class = "dt"><b>SSD:</b></span>
+              1TB<br>
+              <span class = "dt"><b>Processor:</b></span>
+              i7-Intel® HM175<br>
+              <span class = "dt"><b>CPU:</b></span>
+              @2.50GHz - 2.5GHz &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (8CPU's)<br>
+              <span class = "dt"><b>RAM:</b></span>
+              32GB<br>
+              <span class = "dt"><b>VGA:</b></span>
+              NVIDIA GeForce &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GTX 1060 6GB
+          </p>
+      </div>
+  </div>
+  </section>
+  <br>
+  <br>
+<footer>
+    <section class = "footer">
+      <div class = "col">
+        <div class = "try">
+          <strong><p id = "AC">Accepted Payment</p></strong>
+          <img src = "./MTN_Group-Logo.wine.png" width = "50px" height = "30px" class = "i"/>
+          <img src = "./Vodafone-Logo.wine.png" width = "50px" height = "30px" class = "i"/>
+          <img src = "./pngwing.com(1).png" width = "60px" height = "20px" style = "padding-bottom: 5px;" class = "im"/><br/>
+          <img src = "./pngwing.com(3).png" width = "50px" height = "30px" style = "padding-left: 8px" class = "mi"/>
+          <img src = "./pngwing.com(4).png" width = "50px" height = "30px" class = "mi"/>
+          <img src = "./pngwing.com(2).png" width = "30px" height = "20px" style = "padding-bottom:5px;" class = "gi"/>
+        </div>
+        <div>
+        <ul style = "list-style-type: none;">
+        <strong><li class = "c">Connect</li><br/></strong>
+        <a href = "https://wa.me/+233509216100?" target = "_blank"><li class = "a">Whatsapp</li></a>
+        <a href = "https://www.instagram.com/i_am_pagez/" target = "_blank"><li class = "a">Instagram</li></a>
+        <a href = "https://www.linkedin.com/in/godfred-agyapong/" target = "_blank"><li class = "a">Linkedin</li></a>
+        <a href = "https://twitter.com/I_am_pagez" target = "_blank"><li class = "a">Twitter</li></a>
+        <a href = "https://www.facebook.com/godfred.agyapong.16" target = "_blank"><li class = "a">Facebook</li></a>
+        </ul>
+      </div>
+      <div>
+        <ul style = "list-style-type: none;">
+        <strong><li class = "s">Services</li><br/></strong>
+        <a href = "#"><li class = "sd">Web Development</li></a>
+        <a href = "#"><li class = "sd">Graphic Designing</li></a>
+        <a href = "#"><li class = "sd">UI/UX Design</li></a>
+        <a href = "#"><li class = "sd">3D Modeling</li></a>
+        <a href = "#"><li class = "sd">Laptop and Phone sales</li></a>
+        </ul>
+      </div>
+      <div>
+        <ul style = "list-style-type: none;">
+        <strong><li class = "p">Product</li><br/></strong>
+        <a href = "#"><li class = "pd">Laptops</li></a>
+        <a href = "#"><li class = "pd">Iphones</li></a>
+        <a href = "#"><li class = "pd">Laptop Accesories</li></a>
+        <a href = "#"><li class = "pd">Iphone Accesories</li></a>
+        </ul>
+      </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <hr>
+      <div id = "foot">
+        <small><p id = "copyright">&copy 2024</p></small>
+      <div class = "ptc">
+        <small><a href = "#" id = "pp">Privacy Policy</a></small></a>
+        <small><a href = "#" id = "tc">Terms & Conditions</a></small></a>
+      </div>
+      </div>
+    </section>
+  </footer>
+  </body>
+  </html>
